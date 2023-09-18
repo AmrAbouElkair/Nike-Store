@@ -32,7 +32,7 @@ const SuperQuality = () => {
           alt="shoe8"
           width={570}
           height={522}
-          className="object-cover"
+          className="object-cover dark:drop-shadow-[0px_0px_50px_#7c2d12]"
         />
       </div>
     </section>

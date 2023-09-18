@@ -6,7 +6,7 @@ const PopularProductCard: React.FC<{
   price: string;
 }> = ({ imgURL, name, price }) => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full dark:drop-shadow-[12px_12px_20px_#7c2d12]">
       <img src={imgURL} alt={name} className="w-[280px] h-[280px]" />
       <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating-star" width={24} height={24} />

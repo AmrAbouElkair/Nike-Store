@@ -4,7 +4,7 @@ const ServiceCard: React.FC<{
   subtext: string;
 }> = ({ imgURL, label, subtext }) => {
   return (
-    <div className="flex-1 sm:w-[350px] sm:min-w-[350px] shadow-3xl w-full rounded-[20px] px-10 py-16 dark:bg-neutral-900 dark:shadow-orange-900">
+    <div className="flex-1 sm:w-[350px] sm:min-w-[350px] shadow-2xl dark:shadow-orange-900 w-full rounded-[20px] px-10 py-16 dark:bg-neutral-900">
       <div className="flex justify-center items-center w-14 h-14 bg-coral-red rounded-full text-3xl">
         <img src={imgURL} alt={label} height={24} width={24} />
       </div>

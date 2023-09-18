@@ -1,6 +1,7 @@
 # Nike Store LandingPage
 
 This is a simple landing page for a Nike Store website.
+**You can see it here: _[Nike_Store](https://nike-store-landing-page.vercel.app/)_**
 
 ## Screenshots
 
@@ -19,13 +20,6 @@ This is a simple landing page for a Nike Store website.
 ## Introduction
 
 The Nike Store LandingPage project is a fully responsive dark mode website that showcases the Nike brand and provides information about its products and offerings. It is built using ReactJs with TypeScript and Tailwind.
-
-## Features
-
-- Responsive design for optimal viewing on different devices.
-- Interactive and visually appealing user interface.
-- Information about Nike products and services.
-- Call-to-action buttons for easy navigation.
 
 ## Technologies
 

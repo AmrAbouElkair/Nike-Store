@@ -50,7 +50,7 @@ const NavBar = () => {
           className="transition-all duration-1000"
         >
           <i
-            className={`fa-solid fa-xl ${
+            className={`fa-solid fa-xl duration-300 ease-linear ${
               !toggleDarkMode
                 ? "fa-moon text-blue-950"
                 : "fa-sun text-coral-red"

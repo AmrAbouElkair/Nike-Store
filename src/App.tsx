@@ -11,7 +11,7 @@ import NavBar from "./components/UI/Navbar/NavBar";
 function App() {
   return (
     <>
-      <main className="relative dark:bg-black">
+      <main className="relative dark:bg-black duration-300 ease-linear">
         <NavBar />
         <section className="wide:padding-r xl:padding-l padding-b">
           <Hero />

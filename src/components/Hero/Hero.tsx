@@ -19,7 +19,7 @@ const Hero = () => {
           our summer collection
         </p>
         <h1 className="capitalize mt-10 font-palanquin text-8xl max-sm:text-[72px] font-bold dark:text-white">
-          <span className="xl:bg-white dark:xl:bg-black dark:rounded-md xl:whitespace-nowrap relative z-10 pr-10">
+          <span className="xl:bg-white dark:xl:bg-black rounded-3xl xl:whitespace-nowrap relative z-10 pr-10 duration-300 ease-linear">
             the new arrival
           </span>
           <br />

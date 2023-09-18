@@ -10,8 +10,10 @@ const ShoeCard: React.FC<{
     <div
       className={`
     border-2 rounded-xl ${
-      bigShoeImg === imgURL.bigShoe ? "border-coral-red" : "border-transparent"
-    } cursor-pointer max-sm:flex-1`}
+      bigShoeImg === imgURL.bigShoe
+        ? "border-coral-red scale-110"
+        : "border-transparent"
+    } cursor-pointer max-sm:flex-1 duration-200 ease-linear`}
       onClick={handleClick}
     >
       <div className="flex justify-center items-center bg-center bg-card bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">

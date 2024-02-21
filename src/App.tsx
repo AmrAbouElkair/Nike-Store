@@ -1,17 +1,19 @@
 import {
+  CustomerReviews,
   Footer,
   Hero,
   NavBar,
   PopularProducts,
   Services,
   SpecialOffer,
+  Subscribe,
   SuperQuality,
 } from "./components";
 
 function App() {
   return (
     <>
-      <main className="relative dark:bg-black overflow-hidden">
+      <main className="relative overflow-hidden dark:bg-black">
         <NavBar />
         <section id="home" className="wide:padding-r xl:padding-l padding-b">
           <Hero />
@@ -27,6 +29,12 @@ function App() {
         </section>
         <section id="about-us" className="padding">
           <SpecialOffer />
+        </section>
+        <section className="padding bg-pale-blue dark:bg-black">
+          <CustomerReviews />
+        </section>
+        <section id="contact-us" className="padding-x w-full py-16 sm:py-32">
+          <Subscribe />
         </section>
         <Footer />
       </main>

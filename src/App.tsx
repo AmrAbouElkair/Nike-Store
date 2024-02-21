@@ -1,9 +1,13 @@
+import Footer from "./components/UI/Footer/Footer";
+import NavBar from "./components/UI/NavBar/NavBar";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>Start</h1>
-      </div>
+      <main className="relative dark:bg-black overflow-hidden">
+        <NavBar />
+        <Footer />
+      </main>
     </>
   );
 }
